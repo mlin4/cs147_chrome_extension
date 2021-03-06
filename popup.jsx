@@ -32,7 +32,7 @@ class PopUp extends React.Component{
           <Grid item xs={12}>
             // <Switch>
             //   /* when the user first opens the extension */
-            //   <Route exact path="/"></Route>
+            //   <Route exact path="/startingpopup"></Route>
             //
             //   /* when the user wants to see more options */
             //   <Route exact path="/seemore"></Route>
@@ -52,10 +52,10 @@ class PopUp extends React.Component{
        </div>
        </HashRouter>
     );
+  }
 
   }
 
-}
 
 
 ReactDOM.render(
